@@ -56,7 +56,7 @@ const CONFIG = {
     { bild: "bilder/ueberraschung.jpg", text: "Eine kleine Überraschung 💕" },
     { video: "videos/mcbacon.mp4", poster: "videos/mcbacon.jpg", text: "Crispy McBacon auf die 1 🍔" },
     { bild: "bilder/albern-im-bett.jpg", text: "Albern sein mit dir 😛" },
-    { bild: "bilder/blauer-freund.jpg", text: "Unser kleiner blauer Freund 💙" },
+    { bild: "bilder/blauer-freund.jpg", text: "Kumpelblase 💙" },
     { video: "videos/wiese.mp4", poster: "videos/wiese.jpg", text: "Faulenzen im Gras", datum: "24.05.2026" },
     { video: "videos/schlachtensee.mp4", poster: "videos/schlachtensee.jpg", text: "SUP am Schlachtensee", ort: "Berlin", datum: "30.05.2026" },
     { video: "videos/dresden.mp4", poster: "videos/dresden.jpg", text: "Mammutmarsch 🦣🍻", ort: "Dresden", datum: "06.06.2026" },
