@@ -62,7 +62,7 @@ header, main, footer { position: relative; z-index: 1; }
   width: clamp(150px, 38vw, 220px); aspect-ratio: 1; border-radius: 50%; overflow: hidden;
   border: 6px solid #fff; box-shadow: var(--shadow), 0 0 0 10px var(--accent-2); margin-bottom: 1.8rem;
 }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 45% 30%; display: block; }
 .kicker { letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); margin: 0; font-size: 0.85rem; }
 .hero h1 {
   font-size: clamp(3rem, 12vw, 6.5rem); margin: 0.2em 0; line-height: 1.1;

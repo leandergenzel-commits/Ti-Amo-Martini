@@ -8,16 +8,16 @@ const CONFIG = {
   zusammenSeit: "2026-05-03",
 
   geschichte: [
-    { datum: "Austauschjahr", titel: "Wie alles begann 🇮🇹🤝🇩🇪", text: "Martini kommt aus Ponte Caffaro in Italien und hat ihr Austauschjahr in Deutschland gemacht – ausgerechnet in Rathenow. Schicksal! Richtig Fahrt aufgenommen hat alles beim McDonald's-Ranking im Bett: Crispy McBacon auf die 1! 🍔" },
-    { datum: "Rathenow & Berlin", titel: "Unsere Zeit in Deutschland 🏡", text: "Muttis Geburtstag 😉, Tanzen in der Braue, Hangover 2 auf Netflix, Abende mit den Jungs bei Steve oder in der 7, Cocktails an Amys Geburtstag, Abende bei mir in Berlin und Hertha im Olympiastadion – Ha Ho He! 💙" },
-    { datum: "Anfang April 2026", titel: "Zusammen in Montenegro 🇲🇪", text: "Unser Trip mit eigenem Hotelzimmer: Sonne, Meer, ein Pool mit Bergblick und die Aussicht ganz oben vom Lovćen." },
-    { datum: "Ende April 2026", titel: "AIDA-Kreuzfahrt 🛳️", text: "Griechenland & Türkei: Akropolis, Lorbeerkränze, Volos und ganz viel Meer. Es gab Höhen und Tiefen – aber alles in allem war es magisch ✨" },
+    { datum: "Austauschjahr", titel: "Wie alles begann 🇮🇹🤝🇩🇪", text: "Martini kommt aus Ponte Caffaro in Italien und hat ihr Austauschjahr in Deutschland gemacht – ausgerechnet in Rathenow. Genau dort haben sich unsere Wege gekreuzt." },
+    { datum: "Rathenow & Berlin", titel: "Unsere Zeit in Deutschland 🏡", text: "Aus Kennenlernen wurde schnell mehr: gemeinsame Abende mit Freunden in Rathenow, Ausflüge nach Berlin und Hertha im Olympiastadion 💙" },
+    { datum: "Anfang April 2026", titel: "Zusammen in Montenegro 🇲🇪", text: "Sonne, Meer und Berge an der Adria." },
+    { datum: "Ende April 2026", titel: "AIDA-Kreuzfahrt 🛳️", text: "Mit dem Schiff durch Griechenland und die Türkei – von der Akropolis bis nach Volos." },
     { datum: "3. Mai 2026", titel: "Offiziell zusammen 💍", text: "Nach der Kreuzfahrt war klar: Wir gehören zusammen." },
-    { datum: "Mai & Juni 2026", titel: "Sommer in Deutschland ☀️", text: "SUP am Schlachtensee, Bootfahren in Brandenburg und unser Ausflug nach Dresden zum Mammutmarsch 🦣" },
-    { datum: "Juli 2026", titel: "Italien, Teil 1 🍕", text: "Mit Unterstützung von Steve habe ich deine Freunde und deine Familie kennengelernt – aufgeregt, aber es war ein Fest! Ponte Caffaro, Bootsfahrt auf dem Idrosee, das Fest in Bagolino, Essen mit deinem Papa, die Gastfreundschaft deiner Mama, Steve waxen und Baden am Gardasee." },
-    { datum: "Ende August 2026", titel: "Italien, Teil 2 🍹", text: "Brescia-Trip und Essen mit Ricardo, das legendäre Video bei deinen Großeltern 🚬☕️🥃, viele Aperitivos, Baitoni, SUP und Steinkunst am Ufer des Idrosees. Beim Abschied am Flughafen blieb mein Herz in Bergamo." },
-    { datum: "Oktober 2026", titel: "Italien, Teil 3 🍂", text: "Nach sechs langen Wochen endlich wieder: BER → BGY! Herbstliche Berge, neue Restaurants, Essen bei Großeltern, Papa und Freunden – und Sabri, die beste Frau, bei der ich mich wie zu Hause fühle." },
-    { datum: "Heute", titel: "Und es geht weiter…", text: "Jeder Abschied ist nur bis zum nächsten Wiedersehen. Jeder Tag mit dir ist ein neues Kapitel." },
+    { datum: "Mai & Juni 2026", titel: "Sommer in Deutschland ☀️", text: "Seen, Bootstouren und ein Ausflug nach Dresden zum Mammutmarsch 🦣" },
+    { datum: "Juli 2026", titel: "Italien, Teil 1 🍕", text: "Mein erster Besuch bei dir in Italien – zusammen mit meinem Kumpel Steve. Familie und Freunde kennenlernen, Ponte Caffaro, der Lago d'Idro und der Gardasee." },
+    { datum: "Ende August 2026", titel: "Italien, Teil 2 🍹", text: "Wiedersehen nach ein paar Wochen: Ausflüge in die Umgebung, Aperitivos und Sonne am Lago d'Idro." },
+    { datum: "Oktober 2026", titel: "Italien, Teil 3 🍂", text: "Nach sechs Wochen Fernbeziehung endlich wieder vereint: Herbst in den Bergen, gemütliche Abende und ein Mittelalterfest zum Abschluss." },
+    { datum: "Heute", titel: "Und es geht weiter…", text: "Zwischen Rathenow und Ponte Caffaro – bis zum nächsten Wiedersehen. 💕" },
   ],
 
   gruende: [
@@ -56,6 +56,8 @@ const CONFIG = {
     { bild: "bilder/lorbeerkraenze.jpg", text: "Göttin & Gott mit Lorbeerkranz", ort: "Griechenland", datum: "April 2026" },
     { bild: "bilder/volos.jpg", text: "Landgang mit Meerblick", ort: "Volos", datum: "25.04.2026" },
     { bild: "bilder/ueberraschung.jpg", text: "Eine kleine Überraschung 💕" },
+    { video: "videos/mcbacon.mp4", poster: "videos/mcbacon.jpg", text: "Crispy McBacon auf die 1 🍔" },
+    { bild: "bilder/albern-im-bett.jpg", text: "Albern sein mit dir 😛" },
     { video: "videos/wiese.mp4", poster: "videos/wiese.jpg", text: "Faulenzen im Gras", datum: "24.05.2026" },
     { video: "videos/schlachtensee.mp4", poster: "videos/schlachtensee.jpg", text: "SUP am Schlachtensee", ort: "Berlin", datum: "30.05.2026" },
     { video: "videos/dresden.mp4", poster: "videos/dresden.jpg", text: "Mammutmarsch 🦣🍻", ort: "Dresden", datum: "06.06.2026" },
@@ -72,6 +74,9 @@ const CONFIG = {
     { video: "videos/grimassen.mp4", poster: "videos/grimassen.jpg", text: "Grimassen-Queen im Auto 😜", ort: "Bei Tione, Trentino", datum: "17.10.2026" },
     { bild: "bilder/bergstrasse.jpg", text: "Roadtrip durch die Berge", ort: "Trentino", datum: "Oktober 2026" },
     { video: "videos/lernpause.mp4", poster: "videos/lernpause.jpg", text: "Schule ruft – aber erst kurz kuscheln 📚", ort: "Italien", datum: "Oktober 2026" },
+    { video: "videos/hund.mp4", poster: "videos/hund.jpg", text: "Der flauschigste Mitbewohner 🐶", ort: "Ponte Caffaro", datum: "23.10.2026" },
+    { bild: "bilder/mittelalterfest.jpg", text: "Prost mit den Rittern ⚔️🍺", ort: "Lodrone, Trentino", datum: "Oktober 2026" },
+    { video: "videos/gewoelbekeller.mp4", poster: "videos/gewoelbekeller.jpg", text: "Mittelalter-Party im Gewölbekeller 🎉", ort: "Lodrone, Trentino", datum: "24.10.2026" },
   ],
 
   brief:
